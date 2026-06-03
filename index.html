@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTOUS Gallery & Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>LOTOUS Gallery</h1>
+
+    <div class="gallery">
+        <input type="radio" name="gallery" id="img1" checked>
+        <input type="radio" name="gallery" id="img2">
+        <input type="radio" name="gallery" id="img3">
+        <input type="radio" name="gallery" id="img4">
+
+        <form class="gallery-form" aria-label="Gallery selection">
+            <fieldset>
+                <legend>Select an image</legend>
+                <div class="gallery-controls">
+                    <label for="img1">
+                        <span>Lotus 1</span>
+                    </label>
+                    <label for="img2">
+                        <span>Lotus 2</span>
+                    </label>
+                    <label for="img3">
+                        <span>Lotus 3</span>
+                    </label>
+                    <label for="img4">
+                        <span>Lotus 4</span>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="large-image">
+            <img src="蓮の花.jpg" class="image image1">
+            <img src="pngtree-lotus-flower-jpg-pink-lotus-flower-image_13023952.jpg" class="image image2">
+            <img src="Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg" class="image image3">
+            <img src="pngtree-the-lotus-is-also-represented-image_13145607.jpg" class="image image4">
+        </div>
+
+        <div class="thumbnails">
+            <label for="img1">
+                <img src="蓮の花.jpg">
+            </label>
+
+            <label for="img2">
+                <img src="pngtree-lotus-flower-jpg-pink-lotus-flower-image_13023952.jpg">
+            </label>
+
+            <label for="img3">
+                <img src="Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg">
+            </label>
+
+            <label for="img4">
+                <img src="pngtree-the-lotus-is-also-represented-image_13145607.jpg">
+            </label>
+        </div>
+
+    </div>
+
+    <h1>Automatic Slideshow</h1>
+
+    <div class="slideshow">
+        <div class="slides">
+            <img src="蓮の花.jpg">
+            <img src="pngtree-lotus-flower-jpg-pink-lotus-flower-image_13023952.jpg">
+            <img src="Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg">
+            <img src="pngtree-the-lotus-is-also-represented-image_13145607.jpg">
+        </div>
+    </div>
+
+</body>
+</html>
